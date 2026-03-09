@@ -1,0 +1,24 @@
+@import url(https://fonts.google.com/specimen/Red+Hat+Display)
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+body{
+  background: hsl(225, 71%, 84%);
+  background-image: url(./background.jpg) 100%;
+  background-repeat: no-repeat;
+  background-size: center;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  width: 100%;
+  justify-items: center;
+  border: 400px;
+  padding: 50%;
+  margin: 50%;
+  border-radius: 0.5rem;
+  background: hsl(225, 100%, 98%);
+}
