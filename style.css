@@ -7,10 +7,11 @@
 }
 body{
     font-family: "Red Hat Display", sans-serif;
-    background: url(./background.jpg) hsl(225, 100%, 94%) no-repeat center;
-background-size: cover;
-font-weight: 500;
-font-size: 1rem;
+    background: url(./mobile.jpg) hsl(225, 100%, 94%) no-repeat center;
+    background-size: cover;
+    font-weight: 500;
+    font-size: 1rem;
+    height: 100vh;
 }
  .container{
     width: 375px;
