@@ -1,24 +1,102 @@
-@import url(https://fonts.google.com/specimen/Red+Hat+Display);
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Red Hat Display", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
 }
 body{
-  background: hsl(225, 71%, 84%);
-  background-image: url(./background.jpg) 100%;
-  background-repeat: no-repeat;
-  background-size: center;
-  justify-content: center;
-  align-items: center;
+    font-family: "Red Hat Display", sans-serif;
+    background: url(./background.jpg) hsl(225, 100%, 94%) no-repeat center;
+background-size: cover;
+font-weight: 500;
+font-size: 1rem;
 }
-.container{
-  width: 100%;
-  justify-items: center;
-  border: 400px;
-  padding: 50%;
-  margin: 50%;
-  border-radius: 0.5rem;
-  background: hsl(225, 100%, 98%);
+ .container{
+    width: 375px;
+    background: white;
+    margin: 5rem auto;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0px 10px 15px hsla(224, 23%, 55%, 0.308);
+ }
+ h1, h2{
+    font-weight: 900px;
+    color: hsl(223, 47%, 23%);
+ }
+ h1{
+    font-size: 1.5rem;
+ }
+ h2{
+    font-size: 1.25rem;
+ }
+ span{
+    color: hsl(224, 23%, 55%);
+ } 
+ .hero-image{
+    width: 100%;
+ }
+ .content{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    text-align: center;
+ }
+.article{
+    display: flex;
+    background: hsl(225, 100%, 98%);
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.music{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+button{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    box-shadow: 0px 10px 15px hsla(224, 23%, 55%, 0.308);
+}
+button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#cancel{
+    color: hsl(224, 23%, 55%);
+}
+#cancel a:hover{
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+}
+a{
+    color: hsl(245, 75%, 52%);
+    font-weight: 900;
+}
+a:visited{
+    color: hsl(245, 75%, 52%);
+}
+a:focus{
+    color: hsl(245, 75%, 52%);
+}
+article a{
+    text-decoration: underline;
+    font-size: 14px;
+}
+article a:hover{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
 }
