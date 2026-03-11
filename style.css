@@ -7,7 +7,7 @@
 }
 body{
     font-family: "Red Hat Display", sans-serif;
-    background: url(./mobile.jpg) hsl(225, 100%, 94%) no-repeat center;
+    background: url(./images/pattern-background-mobile.svg) hsl(225, 100%, 94%) no-repeat center;
     background-size: cover;
     font-weight: 500;
     font-size: 1rem;
@@ -21,15 +21,15 @@ body{
     overflow: hidden;
     box-shadow: 0px 10px 15px hsla(224, 23%, 55%, 0.308);
  }
- h1, h2{
+ h2, h4{
     font-weight: 900px;
     color: hsl(223, 47%, 23%);
  }
- h1{
-    font-size: 1.5rem;
- }
  h2{
     font-size: 1.25rem;
+ }
+ p{
+    color: hsl(224, 23%, 55%);
  }
  span{
     color: hsl(224, 23%, 55%);
@@ -58,6 +58,7 @@ body{
 }
 .music{
     display: flex;
+    flex-direction: row;
     gap: 1rem;
     align-items: center;
 }
